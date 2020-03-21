@@ -1,3 +1,10 @@
+/**
+ * 
+ *
+ * AUTHORS: Amichai Hadad,Yana Shayev
+ * 
+ * Date: 2020-02
+ */
 #include <stdexcept>
 #include "PhoneticFinder.hpp"
 #include <string>
