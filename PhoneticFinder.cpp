@@ -176,6 +176,7 @@ namespace phonetic{
             }
             
         }
-        throw std::exception();
+        std::string errorMessage = std::string("Did not find the word '")+s2+("' in the text");
+	    throw std::runtime_error(errorMessage);
     }
 };
