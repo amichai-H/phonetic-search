@@ -1,5 +1,6 @@
 /**
  * Demo program for Gimatriya calculation.
+ * AUTHORS: Amichai Hadad,Yana Shayev
  * 
  * Date: 2020-02
  */
