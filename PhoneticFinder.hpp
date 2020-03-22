@@ -1,3 +1,6 @@
+/*
+ * AUTHORS: Amichai Hadad,Yana Shayev
+ */
 #pragma once
 #include <stdexcept>
 #include <string>
