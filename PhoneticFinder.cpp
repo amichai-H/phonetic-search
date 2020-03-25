@@ -131,6 +131,8 @@ namespace phonetic{
         std::string temp = "";
         for (size_t i = start; i < end; i++)
         {
+		if (i==end-1&&s[i]==' ')
+			return temp;
             temp += s[i];
         }
         return temp;
