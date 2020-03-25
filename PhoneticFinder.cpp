@@ -152,6 +152,9 @@ namespace phonetic{
             if (i==s1.length()-1)
             {
                 endW = i+1;
+		if(s1[i+1]==space){
+			endW=i;
+		}
                 std::string temp = getword(startW,endW,s1);
                 if (isLike(temp,s2))
                 {
