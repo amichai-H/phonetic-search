@@ -136,7 +136,11 @@ namespace phonetic{
         return temp;
     }
 
-    std::string find(std::string s1, std::string s2){
+    std::string find(std::string s1, std::string s2)
+	if(s2.compare(" ")==0){
+		std::string errorMessage1 = std::string("input ERROR");
+		throw std::runtime_error(errorMessage1);
+	}
         int startW = 0;
         int endW;
         char space = ' ';
