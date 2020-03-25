@@ -163,7 +163,7 @@ namespace phonetic{
 
             if (s1[i]==space&&i<s1.length())
             {
-                endW = i+1;
+                endW = i;
                 std::string temp = getword(startW,endW,s1);
                 /*std::cout << temp2 << std::endl;*/
                 if (isLike(temp,s2))
