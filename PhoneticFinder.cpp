@@ -165,7 +165,7 @@ namespace phonetic{
             {
                 endW = i;
                 std::string temp = getword(startW,endW,s1);
-                std::cout << temp2 << std::endl;
+                /*std::cout << temp2 << std::endl;*/
                 if (isLike(temp,s2))
                 {
                     return temp;
